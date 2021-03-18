@@ -268,6 +268,7 @@
 		4A712445260333D200F75A37 /* MotionAnimator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6E1A032602FBA80003BEA9 /* MotionAnimator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4AA5EC45E87FAC56DE4CE235E337161C /* MDCTextControlVerticalPositioningReferenceFilled.h in Headers */ = {isa = PBXBuildFile; fileRef = D6798F863EF357A24173B3CC5551ABAA /* MDCTextControlVerticalPositioningReferenceFilled.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AB8797E5DEC21EF33F2DE780FA53475 /* MaterialShapeScheme.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8B21B1880851500F77498E65C888B0 /* MaterialShapeScheme.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AC8131C26035A31005AF782 /* MotionInterchange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC8130F26035A29005AF782 /* MotionInterchange.framework */; };
 		4AF3C5305F30FE918246ACCC46F73673 /* MDCTextInputControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 664FCEC7224C30D70AE57CBC1E29FBE9 /* MDCTextInputControllerBase.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4B0689F6F9BE34161568BFC28616226B /* MDCTabBarIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 852E7441F88260DD3EB46B16A11D41FF /* MDCTabBarIndicatorView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4B93807DF3AE8D6C2F69248FA99F9A41 /* MDCCardCollectionCell+MaterialTheming.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C55F9DBC4D2DC17968BAD306E28C9B /* MDCCardCollectionCell+MaterialTheming.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -908,6 +909,20 @@
 			remoteGlobalIDString = 5D38E7BA63D75779BAE747E1A27FEF0E;
 			remoteInfo = MotionAnimator;
 		};
+		4AC8130B26035A28005AF782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AC8130826035A28005AF782 /* MotionInterchange.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9127D4687CDA7A0635DE8901481DB977;
+			remoteInfo = MotionInterchange;
+		};
+		4AC8130E26035A29005AF782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AC8130826035A28005AF782 /* MotionInterchange.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A02EBBBCF6BAF7F83BC36EDE5FDAF1F8;
+			remoteInfo = MotionInterchange;
+		};
 		4F5B6604C4403657B532589A45305BB7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F63D4919BFBD6D26C8D521C9E4D439D0 /* MDFTextAccessibility */;
@@ -1257,6 +1272,7 @@
 		4A4D3B610965BD17084E78ECB1E5A320 /* MaterialIcons_ic_feedback.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialIcons_ic_feedback.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A71243F260333D200F75A37 /* MotionInterchange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MotionInterchange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7BCBC56A028C5C53E4922F5410A979 /* MDCBottomNavigationItemView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCBottomNavigationItemView.m; path = components/BottomNavigation/src/private/MDCBottomNavigationItemView.m; sourceTree = "<group>"; };
+		4AC8130826035A28005AF782 /* MotionInterchange.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MotionInterchange.xcodeproj; path = "/Volumes/HHD/Carthage/material-components-ios/MotionInterchange.xcodeproj"; sourceTree = "<absolute>"; };
 		4B05FCE8230E51089A904D0B11E27189 /* MaterialIcons+ic_chevron_right.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialIcons+ic_chevron_right.h"; path = "components/private/Icons/icons/ic_chevron_right/src/MaterialIcons+ic_chevron_right.h"; sourceTree = "<group>"; };
 		4B5B85A34A140259D09CB6F265D99E94 /* MDCTextControlVerticalPositioningReference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextControlVerticalPositioningReference.m; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlVerticalPositioningReference.m; sourceTree = "<group>"; };
 		4BD36263862F7276B551BA4D4B967DE9 /* MDCOverlayObserverOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCOverlayObserverOverlay.h; path = components/private/Overlay/src/private/MDCOverlayObserverOverlay.h; sourceTree = "<group>"; };
@@ -1897,6 +1913,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AC8131C26035A31005AF782 /* MotionInterchange.framework in Frameworks */,
 				AEFA64515D27DD6C786B9DDA0DF2D26C /* CoreGraphics.framework in Frameworks */,
 				480CD17CDC9978D05E8732B43EFE4454 /* Foundation.framework in Frameworks */,
 				B6E49F1899C441F20BFFF0ECBCE45D0A /* MDFInternationalization.framework in Frameworks */,
@@ -2429,6 +2446,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		4AC8130926035A28005AF782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AC8130F26035A29005AF782 /* MotionInterchange.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		4B6701FAC4FCEB929D4F8E728D11EC7B /* Tabs+TypographyThemer */ = {
 			isa = PBXGroup;
 			children = (
@@ -2766,6 +2791,7 @@
 				E502F581ABB59693B2BA46EFBEF5F4EF /* Frameworks */,
 				710711F7DE795A36EF43B804BCB0C54B /* MaterialComponents */,
 				0E416FB4D9AC8498D0CABE8222D101B5 /* Products */,
+				4AC8130826035A28005AF782 /* MotionInterchange.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -4851,6 +4877,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				4AC8130C26035A28005AF782 /* PBXTargetDependency */,
 				317FA483DF799D48F6778610657595C6 /* PBXTargetDependency */,
 				380812D23A68A637CF0D0D21D5341051 /* PBXTargetDependency */,
 				B30AC094FC5D73BEE9BBBA755822A320 /* PBXTargetDependency */,
@@ -4906,6 +4933,10 @@
 					ProductGroup = 4A6E19F82602FB8C0003BEA9 /* Products */;
 					ProjectRef = 3A1DE5FE222E2301859C64D1843D4E06 /* MotionAnimator */;
 				},
+				{
+					ProductGroup = 4AC8130926035A28005AF782 /* Products */;
+					ProjectRef = 4AC8130826035A28005AF782 /* MotionInterchange.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -4946,6 +4977,13 @@
 			fileType = wrapper.framework;
 			path = MotionAnimator.framework;
 			remoteRef = 4A6E1A022602FBA80003BEA9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4AC8130F26035A29005AF782 /* MotionInterchange.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MotionInterchange.framework;
+			remoteRef = 4AC8130E26035A29005AF782 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -5475,6 +5513,11 @@
 			isa = PBXTargetDependency;
 			name = MDFTextAccessibility;
 			targetProxy = 4F5B6604C4403657B532589A45305BB7 /* PBXContainerItemProxy */;
+		};
+		4AC8130C26035A28005AF782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MotionInterchange;
+			targetProxy = 4AC8130B26035A28005AF782 /* PBXContainerItemProxy */;
 		};
 		53DF682638E6AFEE581EC87CA83FEC19 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
