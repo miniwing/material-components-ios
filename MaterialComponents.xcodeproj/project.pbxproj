@@ -909,13 +909,6 @@
 			remoteGlobalIDString = 5D38E7BA63D75779BAE747E1A27FEF0E;
 			remoteInfo = MotionAnimator;
 		};
-		4AC8130B26035A28005AF782 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4AC8130826035A28005AF782 /* MotionInterchange.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 9127D4687CDA7A0635DE8901481DB977;
-			remoteInfo = MotionInterchange;
-		};
 		4AC8130E26035A29005AF782 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4AC8130826035A28005AF782 /* MotionInterchange.xcodeproj */;
@@ -4877,7 +4870,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				4AC8130C26035A28005AF782 /* PBXTargetDependency */,
 				317FA483DF799D48F6778610657595C6 /* PBXTargetDependency */,
 				380812D23A68A637CF0D0D21D5341051 /* PBXTargetDependency */,
 				B30AC094FC5D73BEE9BBBA755822A320 /* PBXTargetDependency */,
@@ -5513,11 +5505,6 @@
 			isa = PBXTargetDependency;
 			name = MDFTextAccessibility;
 			targetProxy = 4F5B6604C4403657B532589A45305BB7 /* PBXContainerItemProxy */;
-		};
-		4AC8130C26035A28005AF782 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MotionInterchange;
-			targetProxy = 4AC8130B26035A28005AF782 /* PBXContainerItemProxy */;
 		};
 		53DF682638E6AFEE581EC87CA83FEC19 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
