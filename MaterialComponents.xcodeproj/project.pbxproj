@@ -260,6 +260,12 @@
 		49AEC26D0BD15BA9A78972D17EB301E3 /* MDCOutlinedTextArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 73F1803847B8FA69BFE7D0E0D3E6D45B /* MDCOutlinedTextArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49E2EE41EA7D7406DF273FF811399E6A /* MDCLegacyInkLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE7B0F85A039C6FFB9E1A6B91B4E96D /* MDCLegacyInkLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4A01B8E96D33E84DDEB02E94B388541E /* MDCItemBarCell+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 32200B09D120E165CA71CD8D428A2C9A /* MDCItemBarCell+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4A712440260333D200F75A37 /* MDFInternationalization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6E19FF2602FBA80003BEA9 /* MDFInternationalization.framework */; };
+		4A712441260333D200F75A37 /* MDFInternationalization.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6E19FF2602FBA80003BEA9 /* MDFInternationalization.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4A712442260333D200F75A37 /* MDFTextAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6E1A012602FBA80003BEA9 /* MDFTextAccessibility.framework */; };
+		4A712443260333D200F75A37 /* MDFTextAccessibility.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6E1A012602FBA80003BEA9 /* MDFTextAccessibility.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4A712444260333D200F75A37 /* MotionAnimator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6E1A032602FBA80003BEA9 /* MotionAnimator.framework */; };
+		4A712445260333D200F75A37 /* MotionAnimator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6E1A032602FBA80003BEA9 /* MotionAnimator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4AA5EC45E87FAC56DE4CE235E337161C /* MDCTextControlVerticalPositioningReferenceFilled.h in Headers */ = {isa = PBXBuildFile; fileRef = D6798F863EF357A24173B3CC5551ABAA /* MDCTextControlVerticalPositioningReferenceFilled.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AB8797E5DEC21EF33F2DE780FA53475 /* MaterialShapeScheme.h in Headers */ = {isa = PBXBuildFile; fileRef = FA8B21B1880851500F77498E65C888B0 /* MaterialShapeScheme.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AF3C5305F30FE918246ACCC46F73673 /* MDCTextInputControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 664FCEC7224C30D70AE57CBC1E29FBE9 /* MDCTextInputControllerBase.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -988,6 +994,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4A712448260333D200F75A37 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4A712445260333D200F75A37 /* MotionAnimator.framework in Embed Frameworks */,
+				4A712443260333D200F75A37 /* MDFTextAccessibility.framework in Embed Frameworks */,
+				4A712441260333D200F75A37 /* MDFInternationalization.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0087646D211630E9C246061A43521BF3 /* MDCBaseTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCBaseTextField.h; path = components/TextControls/src/BaseTextFields/MDCBaseTextField.h; sourceTree = "<group>"; };
 		00925808A155F2C2FE7210DE54FC14E7 /* MDCPageControlIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCPageControlIndicator.h; path = components/PageControl/src/private/MDCPageControlIndicator.h; sourceTree = "<group>"; };
@@ -1233,6 +1255,7 @@
 		497A34DACDFA2110FC233ACF52ACF50B /* UIFont+MaterialTypographyPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+MaterialTypographyPrivate.h"; path = "components/Typography/src/private/UIFont+MaterialTypographyPrivate.h"; sourceTree = "<group>"; };
 		49D1E6AD5B25C8C4C606E2F85024042B /* MDCElevatable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCElevatable.h; path = components/Elevation/src/MDCElevatable.h; sourceTree = "<group>"; };
 		4A4D3B610965BD17084E78ECB1E5A320 /* MaterialIcons_ic_feedback.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialIcons_ic_feedback.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A71243F260333D200F75A37 /* MotionInterchange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MotionInterchange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7BCBC56A028C5C53E4922F5410A979 /* MDCBottomNavigationItemView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCBottomNavigationItemView.m; path = components/BottomNavigation/src/private/MDCBottomNavigationItemView.m; sourceTree = "<group>"; };
 		4B05FCE8230E51089A904D0B11E27189 /* MaterialIcons+ic_chevron_right.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialIcons+ic_chevron_right.h"; path = "components/private/Icons/icons/ic_chevron_right/src/MaterialIcons+ic_chevron_right.h"; sourceTree = "<group>"; };
 		4B5B85A34A140259D09CB6F265D99E94 /* MDCTextControlVerticalPositioningReference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextControlVerticalPositioningReference.m; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlVerticalPositioningReference.m; sourceTree = "<group>"; };
@@ -1880,7 +1903,10 @@
 				ECED4912D80CA4449C937944B647FD2D /* MDFTextAccessibility.framework in Frameworks */,
 				60C1CC6AE4112E4148FC298E1EF3D190 /* MotionAnimator.framework in Frameworks */,
 				65548E7C6E2EC57036DD529EA81E6D61 /* QuartzCore.framework in Frameworks */,
+				4A712440260333D200F75A37 /* MDFInternationalization.framework in Frameworks */,
 				9FC81DC57E478280C5789C8230AB36D6 /* WebKit.framework in Frameworks */,
+				4A712442260333D200F75A37 /* MDFTextAccessibility.framework in Frameworks */,
+				4A712444260333D200F75A37 /* MotionAnimator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3945,6 +3971,7 @@
 		E502F581ABB59693B2BA46EFBEF5F4EF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4A71243F260333D200F75A37 /* MotionInterchange.framework */,
 				8B74C16EDF94E96A14149C84ECBA9AAF /* MDFInternationalization.framework */,
 				24B943B1A2409024D50BFB65BB88768A /* MDFTextAccessibility.framework */,
 				51BDAF48FAAABF4CE0A8EACDA3A1EFF3 /* MotionAnimator.framework */,
@@ -4819,12 +4846,15 @@
 				9B9D2D9D74519066346E891F7B7E160D /* Sources */,
 				24BA437873DD4A28D88C6FD79A835000 /* Frameworks */,
 				29F1A66AEF2E54D6B4B70AD7ABCE02C9 /* Resources */,
+				4A712448260333D200F75A37 /* Embed Frameworks */,
+				4A712478260338BD00F75A37 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				317FA483DF799D48F6778610657595C6 /* PBXTargetDependency */,
 				380812D23A68A637CF0D0D21D5341051 /* PBXTargetDependency */,
+				B30AC094FC5D73BEE9BBBA755822A320 /* PBXTargetDependency */,
 				632E65419EE7440140E268DAC4E9BCD1 /* PBXTargetDependency */,
 				D3AEA6F1CD04F265E7F3249B3BF77B74 /* PBXTargetDependency */,
 				275A648AC2520882D10452C79A7D971C /* PBXTargetDependency */,
@@ -4837,7 +4867,6 @@
 				BCFA3471E5BC5B0E88412580885439B8 /* PBXTargetDependency */,
 				53DF682638E6AFEE581EC87CA83FEC19 /* PBXTargetDependency */,
 				BCEC6BB3EEDBC7182ADB00D7F054A423 /* PBXTargetDependency */,
-				B30AC094FC5D73BEE9BBBA755822A320 /* PBXTargetDependency */,
 			);
 			name = MaterialComponents;
 			productName = MaterialComponents;
@@ -4852,6 +4881,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Harry;
 			};
 			buildConfigurationList = 372E0AB1C58A0482E9F2F7BAB068DC6F /* Build configuration list for PBXProject "MaterialComponents" */;
 			compatibilityVersion = "Xcode 10.0";
@@ -5046,6 +5076,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A712478260338BD00F75A37 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage build --platform \"$PLATFORM_NAME\" --project-directory \"$SRCROOT\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04C283B38B287A3A8140DCC03EA1B45B /* Sources */ = {
@@ -5519,11 +5569,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A739D0DBAADD632D594C3035F1DFFEDE /* MaterialComponents.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = G8G9TAP4UN;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_check_circle-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idea.MaterialIcons-ic-check-circle";
 				PRODUCT_NAME = MaterialIcons_ic_check_circle;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -5535,11 +5590,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A739D0DBAADD632D594C3035F1DFFEDE /* MaterialComponents.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = G8G9TAP4UN;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_check-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idea.MaterialIcons-ic-check";
 				PRODUCT_NAME = MaterialIcons_ic_check;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -5551,11 +5611,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7523924B3EE2301FD67F442200024B67 /* MaterialComponents.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = G8G9TAP4UN;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_chevron_right-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idea.MaterialIcons-ic-chevron-right";
 				PRODUCT_NAME = MaterialIcons_ic_chevron_right;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -5567,11 +5632,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7523924B3EE2301FD67F442200024B67 /* MaterialComponents.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = G8G9TAP4UN;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_check-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idea.MaterialIcons-ic-check";
 				PRODUCT_NAME = MaterialIcons_ic_check;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -5583,13 +5653,19 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A739D0DBAADD632D594C3035F1DFFEDE /* MaterialComponents.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = G8G9TAP4UN;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_settings-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idea.MaterialIcons-ic-settings";
 				PRODUCT_NAME = MaterialIcons_ic_settings;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
@@ -5599,11 +5675,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7523924B3EE2301FD67F442200024B67 /* MaterialComponents.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = G8G9TAP4UN;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_arrow_back-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idea.MaterialIcons-ic-arrow-back";
 				PRODUCT_NAME = MaterialIcons_ic_arrow_back;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -5615,11 +5696,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A739D0DBAADD632D594C3035F1DFFEDE /* MaterialComponents.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = G8G9TAP4UN;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_help_outline-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idea.MaterialIcons-ic-help-outline";
 				PRODUCT_NAME = MaterialIcons_ic_help_outline;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -5631,11 +5717,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A739D0DBAADD632D594C3035F1DFFEDE /* MaterialComponents.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = G8G9TAP4UN;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_reorder-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idea.MaterialIcons-ic-reorder";
 				PRODUCT_NAME = MaterialIcons_ic_reorder;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -5666,10 +5757,12 @@
 					"@loader_path/Frameworks",
 				);
 				MODULEMAP_FILE = "Target Support Files/MaterialComponents/MaterialComponents.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = com.idea.MaterialComponents;
 				PRODUCT_MODULE_NAME = MaterialComponents;
 				PRODUCT_NAME = MaterialComponents;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -5682,11 +5775,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7523924B3EE2301FD67F442200024B67 /* MaterialComponents.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = G8G9TAP4UN;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_radio_button_unchecked-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idea.MaterialIcons-ic-radio-button-unchecked";
 				PRODUCT_NAME = MaterialIcons_ic_radio_button_unchecked;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -5698,11 +5796,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A739D0DBAADD632D594C3035F1DFFEDE /* MaterialComponents.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = G8G9TAP4UN;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_color_lens-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idea.MaterialIcons-ic-color-lens";
 				PRODUCT_NAME = MaterialIcons_ic_color_lens;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -5775,11 +5878,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A739D0DBAADD632D594C3035F1DFFEDE /* MaterialComponents.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = G8G9TAP4UN;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_radio_button_unchecked-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idea.MaterialIcons-ic-radio-button-unchecked";
 				PRODUCT_NAME = MaterialIcons_ic_radio_button_unchecked;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -5791,11 +5899,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A739D0DBAADD632D594C3035F1DFFEDE /* MaterialComponents.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = G8G9TAP4UN;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_info-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idea.MaterialIcons-ic-info";
 				PRODUCT_NAME = MaterialIcons_ic_info;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -5807,11 +5920,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A739D0DBAADD632D594C3035F1DFFEDE /* MaterialComponents.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = G8G9TAP4UN;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_arrow_back-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idea.MaterialIcons-ic-arrow-back";
 				PRODUCT_NAME = MaterialIcons_ic_arrow_back;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -5823,11 +5941,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A739D0DBAADD632D594C3035F1DFFEDE /* MaterialComponents.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = G8G9TAP4UN;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_feedback-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idea.MaterialIcons-ic-feedback";
 				PRODUCT_NAME = MaterialIcons_ic_feedback;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -5858,10 +5981,12 @@
 					"@loader_path/Frameworks",
 				);
 				MODULEMAP_FILE = "Target Support Files/MaterialComponents/MaterialComponents.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = com.idea.MaterialComponents;
 				PRODUCT_MODULE_NAME = MaterialComponents;
 				PRODUCT_NAME = MaterialComponents;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -5873,11 +5998,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A739D0DBAADD632D594C3035F1DFFEDE /* MaterialComponents.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = G8G9TAP4UN;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_chevron_right-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idea.MaterialIcons-ic-chevron-right";
 				PRODUCT_NAME = MaterialIcons_ic_chevron_right;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -5946,11 +6076,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7523924B3EE2301FD67F442200024B67 /* MaterialComponents.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = G8G9TAP4UN;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_reorder-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idea.MaterialIcons-ic-reorder";
 				PRODUCT_NAME = MaterialIcons_ic_reorder;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -5962,11 +6097,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7523924B3EE2301FD67F442200024B67 /* MaterialComponents.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = G8G9TAP4UN;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_more_horiz-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idea.MaterialIcons-ic-more-horiz";
 				PRODUCT_NAME = MaterialIcons_ic_more_horiz;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -5978,11 +6118,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7523924B3EE2301FD67F442200024B67 /* MaterialComponents.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = G8G9TAP4UN;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_color_lens-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idea.MaterialIcons-ic-color-lens";
 				PRODUCT_NAME = MaterialIcons_ic_color_lens;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -5994,11 +6139,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7523924B3EE2301FD67F442200024B67 /* MaterialComponents.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = G8G9TAP4UN;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_help_outline-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idea.MaterialIcons-ic-help-outline";
 				PRODUCT_NAME = MaterialIcons_ic_help_outline;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -6010,11 +6160,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7523924B3EE2301FD67F442200024B67 /* MaterialComponents.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = G8G9TAP4UN;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_feedback-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idea.MaterialIcons-ic-feedback";
 				PRODUCT_NAME = MaterialIcons_ic_feedback;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -6026,11 +6181,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7523924B3EE2301FD67F442200024B67 /* MaterialComponents.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = G8G9TAP4UN;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_check_circle-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idea.MaterialIcons-ic-check-circle";
 				PRODUCT_NAME = MaterialIcons_ic_check_circle;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -6042,13 +6202,19 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7523924B3EE2301FD67F442200024B67 /* MaterialComponents.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = G8G9TAP4UN;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_settings-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idea.MaterialIcons-ic-settings";
 				PRODUCT_NAME = MaterialIcons_ic_settings;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
@@ -6058,11 +6224,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A739D0DBAADD632D594C3035F1DFFEDE /* MaterialComponents.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = G8G9TAP4UN;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_more_horiz-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idea.MaterialIcons-ic-more-horiz";
 				PRODUCT_NAME = MaterialIcons_ic_more_horiz;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -6074,11 +6245,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7523924B3EE2301FD67F442200024B67 /* MaterialComponents.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = G8G9TAP4UN;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_info-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idea.MaterialIcons-ic-info";
 				PRODUCT_NAME = MaterialIcons_ic_info;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
