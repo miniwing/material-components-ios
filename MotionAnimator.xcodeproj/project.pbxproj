@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01453D8561766D1ADB2A90E3742EC317 /* MDMDragCoefficient.h in Headers */ = {isa = PBXBuildFile; fileRef = ECEF52490989656B1DA93AA49BC5BF93 /* MDMDragCoefficient.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0689B4BC88B3B9633F0B0843FFB23EB8 /* MDMAnimatableKeyPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = DB45E23E666AF34BDB3E54D4558D1068 /* MDMAnimatableKeyPaths.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1A49DFB8979B58B85BA3639EE4C11E34 /* MDMRegisteredAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 922B764B571C2295FE39137C3DF15A36 /* MDMRegisteredAnimation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		250EDB62077D23F6B7E6DEFA50D44208 /* MDMUIKitValueCoercion.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D2EB16317C6C0D7105A8444D764230 /* MDMUIKitValueCoercion.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2DA50DFFF46EB74FEF9642BBC4C1ADEE /* MDMDragCoefficient.m in Sources */ = {isa = PBXBuildFile; fileRef = 33453BF60A824B36B418E1405B88FAAE /* MDMDragCoefficient.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		360E314D0CE75393FA61C3A00443BDC5 /* MDMBlockAnimations.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D9478A36BEE1018AE4DECA9B00F404E /* MDMBlockAnimations.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3B39BB518184CB1A7AF1B511AD6F4CFD /* CAMediaTimingFunction+MotionAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CE5905F11D4EFC8CEFA4B245D6AE4B7 /* CAMediaTimingFunction+MotionAnimator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3F256D3E64948550C11C81374841F894 /* MotionAnimator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19444391148E27E6C1DA91E569CD10F2 /* MotionAnimator-dummy.m */; };
+		450CD966D87646DF2B5DD566831C21C3 /* CATransaction+MotionAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D587843C21C4ADE5A4885A64E6C05EF /* CATransaction+MotionAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53FCE5643F14E4FA5EEF73F65E3C836E /* MotionAnimator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06F7CDD44222BBEFD05BCF440EB70173 /* MotionAnimator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B40050A485D687A854D04F898493257 /* MDMRegisteredAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 959509C9A18E4972F26A4E1E2BDF0140 /* MDMRegisteredAnimation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		681B8A5CB1DC3F8F1FB5409490455535 /* MDMAnimationRegistrar.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EC5847601A0DF3C67ECA1813E292D7 /* MDMAnimationRegistrar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7DD5D385777F8DCE3FB53242F6866127 /* MDMAnimatableKeyPaths.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B87B179489C2F71B66FACB147B15B18 /* MDMAnimatableKeyPaths.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84D4C41D0248CC5C7F5972DC28598B32 /* CABasicAnimation+MotionAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 40BF6F60D482D0BF15A69E769B53B9BF /* CABasicAnimation+MotionAnimator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		86D4FD0B245CC683468C4D71D68E125F /* CAMediaTimingFunction+MotionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAA9B35808C98740A396740FD142EA4 /* CAMediaTimingFunction+MotionAnimator.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		94DA9D8BD0D9B1DA315790ABE2F70009 /* CABasicAnimation+MotionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 617153D18443D38692F6EBEA2C1C030A /* CABasicAnimation+MotionAnimator.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AA5467A57D9BFD7D967F566DF876AE4C /* MDMAnimationRegistrar.m in Sources */ = {isa = PBXBuildFile; fileRef = A8FE1DDD84460664D247AF8EA64BCB3B /* MDMAnimationRegistrar.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C846BE7C46257EDC0A02B3CD57A21807 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48035B06E51753C975B3B12895D5FD2 /* Foundation.framework */; };
+		C8F01129954CE81D5E5C9AECFCA10539 /* MotionInterchange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E71FAE3532ED407D9A5BC305B043C8C8 /* MotionInterchange.framework */; };
+		D1FEF6EECB439E35BC3F643BA53D1B60 /* MDMCoreAnimationTraceable.h in Headers */ = {isa = PBXBuildFile; fileRef = 321BEA836B2E540D002B08FCEC892DA4 /* MDMCoreAnimationTraceable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4F18D5E13AAA2E0A83D97DE035EB799 /* MDMBlockAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A629B4DF1875F3EFBD752A5FFCE17A /* MDMBlockAnimations.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D987745A45C316045CB54C83E25412F4 /* MDMMotionAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = AD65E926283642DC1EFC1F717A790D80 /* MDMMotionAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB9CD89BFB8C929E0C57F7E7066F7FD4 /* MotionAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = B7A8F39BEFAEAC959727D48D2E904576 /* MotionAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E88332E4B4615E7A1E8D2D349094BDD3 /* CATransaction+MotionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = B9BE5F757B3E6D0AFB4BAC824276E099 /* CATransaction+MotionAnimator.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FDA6D860B44EF461A0DB60F2357FAB67 /* MDMUIKitValueCoercion.h in Headers */ = {isa = PBXBuildFile; fileRef = EBD5EF5117AC94A32A2D95FF56DC2C13 /* MDMUIKitValueCoercion.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE7F60AD6126A504305AFA6849295BAE /* MDMMotionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A22538BB1B4A286A9A823BCF3FCFE5 /* MDMMotionAnimator.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38DD8FFB57BE6D37B3D6CD09BD9B1E1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0A88968440A413A74E40A9177A3AE60 /* MotionInterchange */;
+			proxyType = 1;
+			remoteGlobalIDString = 9127D4687CDA7A0635DE8901481DB977;
+			remoteInfo = MotionInterchange;
+		};
+		4A6E1A0C2602FBE40003BEA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0A88968440A413A74E40A9177A3AE60 /* MotionInterchange */;
+			proxyType = 2;
+			remoteGlobalIDString = A02EBBBCF6BAF7F83BC36EDE5FDAF1F8;
+			remoteInfo = MotionInterchange;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06F7CDD44222BBEFD05BCF440EB70173 /* MotionAnimator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MotionAnimator-umbrella.h"; sourceTree = "<group>"; };
+		19444391148E27E6C1DA91E569CD10F2 /* MotionAnimator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MotionAnimator-dummy.m"; sourceTree = "<group>"; };
+		2B87B179489C2F71B66FACB147B15B18 /* MDMAnimatableKeyPaths.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDMAnimatableKeyPaths.h; path = src/MDMAnimatableKeyPaths.h; sourceTree = "<group>"; };
+		2D9478A36BEE1018AE4DECA9B00F404E /* MDMBlockAnimations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDMBlockAnimations.h; path = src/private/MDMBlockAnimations.h; sourceTree = "<group>"; };
+		2F9FAE8E1CB83ED0DA66DDB84E83CA56 /* MotionAnimator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MotionAnimator-prefix.pch"; sourceTree = "<group>"; };
+		321BEA836B2E540D002B08FCEC892DA4 /* MDMCoreAnimationTraceable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDMCoreAnimationTraceable.h; path = src/MDMCoreAnimationTraceable.h; sourceTree = "<group>"; };
+		33453BF60A824B36B418E1405B88FAAE /* MDMDragCoefficient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDMDragCoefficient.m; path = src/private/MDMDragCoefficient.m; sourceTree = "<group>"; };
+		40BF6F60D482D0BF15A69E769B53B9BF /* CABasicAnimation+MotionAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CABasicAnimation+MotionAnimator.h"; path = "src/private/CABasicAnimation+MotionAnimator.h"; sourceTree = "<group>"; };
+		46EC5847601A0DF3C67ECA1813E292D7 /* MDMAnimationRegistrar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDMAnimationRegistrar.h; path = src/private/MDMAnimationRegistrar.h; sourceTree = "<group>"; };
+		4D587843C21C4ADE5A4885A64E6C05EF /* CATransaction+MotionAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CATransaction+MotionAnimator.h"; path = "src/CATransaction+MotionAnimator.h"; sourceTree = "<group>"; };
+		4FAA9B35808C98740A396740FD142EA4 /* CAMediaTimingFunction+MotionAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAMediaTimingFunction+MotionAnimator.m"; path = "src/private/CAMediaTimingFunction+MotionAnimator.m"; sourceTree = "<group>"; };
+		5BA4897DD17BE219D1248D06E3F1543B /* MotionAnimator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MotionAnimator.modulemap; sourceTree = "<group>"; };
+		5D38E7BA63D75779BAE747E1A27FEF0E /* MotionAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MotionAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6142AC7E977FDA1B02D7007BCC46C019 /* MotionAnimator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MotionAnimator.debug.xcconfig; sourceTree = "<group>"; };
+		617153D18443D38692F6EBEA2C1C030A /* CABasicAnimation+MotionAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CABasicAnimation+MotionAnimator.m"; path = "src/private/CABasicAnimation+MotionAnimator.m"; sourceTree = "<group>"; };
+		62A629B4DF1875F3EFBD752A5FFCE17A /* MDMBlockAnimations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDMBlockAnimations.m; path = src/private/MDMBlockAnimations.m; sourceTree = "<group>"; };
+		69D2EB16317C6C0D7105A8444D764230 /* MDMUIKitValueCoercion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDMUIKitValueCoercion.m; path = src/private/MDMUIKitValueCoercion.m; sourceTree = "<group>"; };
+		7CE5905F11D4EFC8CEFA4B245D6AE4B7 /* CAMediaTimingFunction+MotionAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAMediaTimingFunction+MotionAnimator.h"; path = "src/private/CAMediaTimingFunction+MotionAnimator.h"; sourceTree = "<group>"; };
+		922B764B571C2295FE39137C3DF15A36 /* MDMRegisteredAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDMRegisteredAnimation.m; path = src/private/MDMRegisteredAnimation.m; sourceTree = "<group>"; };
+		93557E4133BC77D3B26C7AD8833CC393 /* MotionAnimator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MotionAnimator.release.xcconfig; sourceTree = "<group>"; };
+		959509C9A18E4972F26A4E1E2BDF0140 /* MDMRegisteredAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDMRegisteredAnimation.h; path = src/private/MDMRegisteredAnimation.h; sourceTree = "<group>"; };
+		A44417D90F1F592713F8DFB8517E997C /* MotionAnimator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MotionAnimator-Info.plist"; sourceTree = "<group>"; };
+		A8FE1DDD84460664D247AF8EA64BCB3B /* MDMAnimationRegistrar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDMAnimationRegistrar.m; path = src/private/MDMAnimationRegistrar.m; sourceTree = "<group>"; };
+		AD65E926283642DC1EFC1F717A790D80 /* MDMMotionAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDMMotionAnimator.h; path = src/MDMMotionAnimator.h; sourceTree = "<group>"; };
+		B7A8F39BEFAEAC959727D48D2E904576 /* MotionAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MotionAnimator.h; path = src/MotionAnimator.h; sourceTree = "<group>"; };
+		B9BE5F757B3E6D0AFB4BAC824276E099 /* CATransaction+MotionAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CATransaction+MotionAnimator.m"; path = "src/CATransaction+MotionAnimator.m"; sourceTree = "<group>"; };
+		DB45E23E666AF34BDB3E54D4558D1068 /* MDMAnimatableKeyPaths.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDMAnimatableKeyPaths.m; path = src/MDMAnimatableKeyPaths.m; sourceTree = "<group>"; };
+		E1A22538BB1B4A286A9A823BCF3FCFE5 /* MDMMotionAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDMMotionAnimator.m; path = src/MDMMotionAnimator.m; sourceTree = "<group>"; };
+		E48035B06E51753C975B3B12895D5FD2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E71FAE3532ED407D9A5BC305B043C8C8 /* MotionInterchange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MotionInterchange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD5EF5117AC94A32A2D95FF56DC2C13 /* MDMUIKitValueCoercion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDMUIKitValueCoercion.h; path = src/private/MDMUIKitValueCoercion.h; sourceTree = "<group>"; };
+		ECEF52490989656B1DA93AA49BC5BF93 /* MDMDragCoefficient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDMDragCoefficient.h; path = src/private/MDMDragCoefficient.h; sourceTree = "<group>"; };
+		F0A88968440A413A74E40A9177A3AE60 /* MotionInterchange */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MotionInterchange; path = MotionInterchange.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82CC490B2118364B279C1AE738A03AE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C846BE7C46257EDC0A02B3CD57A21807 /* Foundation.framework in Frameworks */,
+				C8F01129954CE81D5E5C9AECFCA10539 /* MotionInterchange.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1567DA322C17181D46F1F284E672EC78 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BA4897DD17BE219D1248D06E3F1543B /* MotionAnimator.modulemap */,
+				19444391148E27E6C1DA91E569CD10F2 /* MotionAnimator-dummy.m */,
+				A44417D90F1F592713F8DFB8517E997C /* MotionAnimator-Info.plist */,
+				2F9FAE8E1CB83ED0DA66DDB84E83CA56 /* MotionAnimator-prefix.pch */,
+				06F7CDD44222BBEFD05BCF440EB70173 /* MotionAnimator-umbrella.h */,
+				6142AC7E977FDA1B02D7007BCC46C019 /* MotionAnimator.debug.xcconfig */,
+				93557E4133BC77D3B26C7AD8833CC393 /* MotionAnimator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MotionAnimator";
+			sourceTree = "<group>";
+		};
+		29B0289AA4602C5AD102AC8C5905EA1C /* MotionAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				40BF6F60D482D0BF15A69E769B53B9BF /* CABasicAnimation+MotionAnimator.h */,
+				617153D18443D38692F6EBEA2C1C030A /* CABasicAnimation+MotionAnimator.m */,
+				7CE5905F11D4EFC8CEFA4B245D6AE4B7 /* CAMediaTimingFunction+MotionAnimator.h */,
+				4FAA9B35808C98740A396740FD142EA4 /* CAMediaTimingFunction+MotionAnimator.m */,
+				4D587843C21C4ADE5A4885A64E6C05EF /* CATransaction+MotionAnimator.h */,
+				B9BE5F757B3E6D0AFB4BAC824276E099 /* CATransaction+MotionAnimator.m */,
+				2B87B179489C2F71B66FACB147B15B18 /* MDMAnimatableKeyPaths.h */,
+				DB45E23E666AF34BDB3E54D4558D1068 /* MDMAnimatableKeyPaths.m */,
+				46EC5847601A0DF3C67ECA1813E292D7 /* MDMAnimationRegistrar.h */,
+				A8FE1DDD84460664D247AF8EA64BCB3B /* MDMAnimationRegistrar.m */,
+				2D9478A36BEE1018AE4DECA9B00F404E /* MDMBlockAnimations.h */,
+				62A629B4DF1875F3EFBD752A5FFCE17A /* MDMBlockAnimations.m */,
+				321BEA836B2E540D002B08FCEC892DA4 /* MDMCoreAnimationTraceable.h */,
+				ECEF52490989656B1DA93AA49BC5BF93 /* MDMDragCoefficient.h */,
+				33453BF60A824B36B418E1405B88FAAE /* MDMDragCoefficient.m */,
+				AD65E926283642DC1EFC1F717A790D80 /* MDMMotionAnimator.h */,
+				E1A22538BB1B4A286A9A823BCF3FCFE5 /* MDMMotionAnimator.m */,
+				959509C9A18E4972F26A4E1E2BDF0140 /* MDMRegisteredAnimation.h */,
+				922B764B571C2295FE39137C3DF15A36 /* MDMRegisteredAnimation.m */,
+				EBD5EF5117AC94A32A2D95FF56DC2C13 /* MDMUIKitValueCoercion.h */,
+				69D2EB16317C6C0D7105A8444D764230 /* MDMUIKitValueCoercion.m */,
+				B7A8F39BEFAEAC959727D48D2E904576 /* MotionAnimator.h */,
+				1567DA322C17181D46F1F284E672EC78 /* Support Files */,
+			);
+			path = MotionAnimator;
+			sourceTree = "<group>";
+		};
+		4A6E19FC2602FB8C0003BEA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A6E1A0D2602FBE40003BEA9 /* MotionInterchange.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7545DB1E1DE021525FB8282351E07AAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D38E7BA63D75779BAE747E1A27FEF0E /* MotionAnimator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F6E16CDBA8F2D82F3D9EAA57C3159BB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E48035B06E51753C975B3B12895D5FD2 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		85BB0EE8FA5DF1F3CBDF437E1D3B93CD = {
+			isa = PBXGroup;
+			children = (
+				E55FA5EA64CCA41A02B009C7EEFBF5A3 /* Dependencies */,
+				8C4CEAF348110AFD8D028E06D146717C /* Frameworks */,
+				29B0289AA4602C5AD102AC8C5905EA1C /* MotionAnimator */,
+				7545DB1E1DE021525FB8282351E07AAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C4CEAF348110AFD8D028E06D146717C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E71FAE3532ED407D9A5BC305B043C8C8 /* MotionInterchange.framework */,
+				7F6E16CDBA8F2D82F3D9EAA57C3159BB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E55FA5EA64CCA41A02B009C7EEFBF5A3 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				F0A88968440A413A74E40A9177A3AE60 /* MotionInterchange */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4364BF53F9F876BE553F6895DC96E853 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D4C41D0248CC5C7F5972DC28598B32 /* CABasicAnimation+MotionAnimator.h in Headers */,
+				3B39BB518184CB1A7AF1B511AD6F4CFD /* CAMediaTimingFunction+MotionAnimator.h in Headers */,
+				450CD966D87646DF2B5DD566831C21C3 /* CATransaction+MotionAnimator.h in Headers */,
+				7DD5D385777F8DCE3FB53242F6866127 /* MDMAnimatableKeyPaths.h in Headers */,
+				681B8A5CB1DC3F8F1FB5409490455535 /* MDMAnimationRegistrar.h in Headers */,
+				360E314D0CE75393FA61C3A00443BDC5 /* MDMBlockAnimations.h in Headers */,
+				D1FEF6EECB439E35BC3F643BA53D1B60 /* MDMCoreAnimationTraceable.h in Headers */,
+				01453D8561766D1ADB2A90E3742EC317 /* MDMDragCoefficient.h in Headers */,
+				D987745A45C316045CB54C83E25412F4 /* MDMMotionAnimator.h in Headers */,
+				5B40050A485D687A854D04F898493257 /* MDMRegisteredAnimation.h in Headers */,
+				FDA6D860B44EF461A0DB60F2357FAB67 /* MDMUIKitValueCoercion.h in Headers */,
+				53FCE5643F14E4FA5EEF73F65E3C836E /* MotionAnimator-umbrella.h in Headers */,
+				DB9CD89BFB8C929E0C57F7E7066F7FD4 /* MotionAnimator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B1AD64E3DCC510B12F1E50FBDCC0F044 /* MotionAnimator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D074B087836E2F4D0F73BC605351423C /* Build configuration list for PBXNativeTarget "MotionAnimator" */;
+			buildPhases = (
+				4364BF53F9F876BE553F6895DC96E853 /* Headers */,
+				CCF9F14E1EF59B8C80965F55F8D29896 /* Sources */,
+				82CC490B2118364B279C1AE738A03AE3 /* Frameworks */,
+				CDA6CC2D98A4B80DB44BF946C2B21AD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C4D76279385A0EBD4CBF5812DEDF485 /* PBXTargetDependency */,
+			);
+			name = MotionAnimator;
+			productName = MotionAnimator;
+			productReference = 5D38E7BA63D75779BAE747E1A27FEF0E /* MotionAnimator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76DF66346457A8DC122055B0BEC84295 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 5B7AAE39F71442A88E91A969FBC9553E /* Build configuration list for PBXProject "MotionAnimator" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85BB0EE8FA5DF1F3CBDF437E1D3B93CD;
+			productRefGroup = 7545DB1E1DE021525FB8282351E07AAD /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4A6E19FC2602FB8C0003BEA9 /* Products */;
+					ProjectRef = F0A88968440A413A74E40A9177A3AE60 /* MotionInterchange */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				B1AD64E3DCC510B12F1E50FBDCC0F044 /* MotionAnimator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4A6E1A0D2602FBE40003BEA9 /* MotionInterchange.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MotionInterchange.framework;
+			remoteRef = 4A6E1A0C2602FBE40003BEA9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDA6CC2D98A4B80DB44BF946C2B21AD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCF9F14E1EF59B8C80965F55F8D29896 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DA9D8BD0D9B1DA315790ABE2F70009 /* CABasicAnimation+MotionAnimator.m in Sources */,
+				86D4FD0B245CC683468C4D71D68E125F /* CAMediaTimingFunction+MotionAnimator.m in Sources */,
+				E88332E4B4615E7A1E8D2D349094BDD3 /* CATransaction+MotionAnimator.m in Sources */,
+				0689B4BC88B3B9633F0B0843FFB23EB8 /* MDMAnimatableKeyPaths.m in Sources */,
+				AA5467A57D9BFD7D967F566DF876AE4C /* MDMAnimationRegistrar.m in Sources */,
+				D4F18D5E13AAA2E0A83D97DE035EB799 /* MDMBlockAnimations.m in Sources */,
+				2DA50DFFF46EB74FEF9642BBC4C1ADEE /* MDMDragCoefficient.m in Sources */,
+				FE7F60AD6126A504305AFA6849295BAE /* MDMMotionAnimator.m in Sources */,
+				1A49DFB8979B58B85BA3639EE4C11E34 /* MDMRegisteredAnimation.m in Sources */,
+				250EDB62077D23F6B7E6DEFA50D44208 /* MDMUIKitValueCoercion.m in Sources */,
+				3F256D3E64948550C11C81374841F894 /* MotionAnimator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C4D76279385A0EBD4CBF5812DEDF485 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MotionInterchange;
+			targetProxy = 38DD8FFB57BE6D37B3D6CD09BD9B1E1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13F9371DDEF78146E76F674F2137329A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93557E4133BC77D3B26C7AD8833CC393 /* MotionAnimator.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MotionAnimator/MotionAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MotionAnimator/MotionAnimator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MotionAnimator/MotionAnimator.modulemap";
+				PRODUCT_MODULE_NAME = MotionAnimator;
+				PRODUCT_NAME = MotionAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F8FF85BD76EB7D6CFBA06EB7E186568 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8D6B06817642BFAC99A1A4D86A2B7B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F9F63BD5E4F676AD2310979B3B29D44D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6142AC7E977FDA1B02D7007BCC46C019 /* MotionAnimator.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MotionAnimator/MotionAnimator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MotionAnimator/MotionAnimator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MotionAnimator/MotionAnimator.modulemap";
+				PRODUCT_MODULE_NAME = MotionAnimator;
+				PRODUCT_NAME = MotionAnimator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B7AAE39F71442A88E91A969FBC9553E /* Build configuration list for PBXProject "MotionAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F8FF85BD76EB7D6CFBA06EB7E186568 /* Debug */,
+				8D6B06817642BFAC99A1A4D86A2B7B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D074B087836E2F4D0F73BC605351423C /* Build configuration list for PBXNativeTarget "MotionAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F63BD5E4F676AD2310979B3B29D44D /* Debug */,
+				13F9371DDEF78146E76F674F2137329A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76DF66346457A8DC122055B0BEC84295 /* Project object */;
+}

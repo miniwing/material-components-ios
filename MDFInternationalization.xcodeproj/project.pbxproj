@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00AA4B28F2C57072DA897F59A056792E /* UIView+MaterialRTL.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 24BE5E3CA2EE8B1BC84453246235A288 /* UIView+MaterialRTL.h */; };
+		0743EEDAA8FAD13999659CB8BE85188D /* MDFInternationalization-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E46AA3EE6E5F763DFCB52E23361A1CD2 /* MDFInternationalization-dummy.m */; };
+		117E4D8C6376403CC8EB0AC4C074E7EF /* NSLocale+MaterialRTL.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = DA710D9B47F4AA09925F20EF9D3ABFAA /* NSLocale+MaterialRTL.h */; };
+		11F381B98DC4FD53609ED82883C8810A /* MDFInternationalization-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A4B305F0F692F07AAC7530014771305 /* MDFInternationalization-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		256C083E273BC2E2063D33456B59A42F /* MDFRTL.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AD52A09D5EE158B4C4236F0BA12E4F /* MDFRTL.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		33D0271F2632495BCA7EBA17C3CC7D58 /* MDFRTL.h in Headers */ = {isa = PBXBuildFile; fileRef = F5C11872BDF153C58A6C99C83368B687 /* MDFRTL.h */; };
+		38D0E4A2F3E1D2EB065772F99724EA51 /* MDFInternationalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 78A621AE812533A66C123BBD20C6F462 /* MDFInternationalization.h */; };
+		39FF4D00D32295D2310F54F45E0E12B8 /* UIView+MaterialRTL.m in Sources */ = {isa = PBXBuildFile; fileRef = 750C5712665E9DE039E66E4381370A25 /* UIView+MaterialRTL.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4769A2EE3CCEA152BC2EC9D7E491FBE7 /* NSLocale+MaterialRTL.h in Headers */ = {isa = PBXBuildFile; fileRef = DA710D9B47F4AA09925F20EF9D3ABFAA /* NSLocale+MaterialRTL.h */; };
+		476D4CF5DAA5BD856A2AAE4AC4118F4B /* UIImage+MaterialRTL.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = B41BB884BEA516D7AD6D0F6971990DC4 /* UIImage+MaterialRTL.h */; };
+		63151DC49EB9BD1E4CBF8DC87D9D9126 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F31F3388C265DB7D9BF761D8E13E2ED /* Foundation.framework */; };
+		82E06C78705B87CA114DF9F107851C8A /* MDFRTL.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = F5C11872BDF153C58A6C99C83368B687 /* MDFRTL.h */; };
+		88784B55C45FF8C5D5492F024CC2F9FA /* MDFInternationalization.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 78A621AE812533A66C123BBD20C6F462 /* MDFInternationalization.h */; };
+		909D75B45E6686622E4495EB3F577CD9 /* UIImage+MaterialRTL.m in Sources */ = {isa = PBXBuildFile; fileRef = A620F8135D10567E5BB8F5E8CE7124D3 /* UIImage+MaterialRTL.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A840EE869C0D96996383CBD283C95B89 /* NSString+MaterialBidi.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C94DAE6C62BAE1AE773EBA9CD39585 /* NSString+MaterialBidi.h */; };
+		BD9F5CF5034698C48182F9FCB1019FF5 /* UIView+MaterialRTL.h in Headers */ = {isa = PBXBuildFile; fileRef = 24BE5E3CA2EE8B1BC84453246235A288 /* UIView+MaterialRTL.h */; };
+		BF09C2BCDE49A99E15D7F2F133A23D66 /* NSString+MaterialBidi.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 60C94DAE6C62BAE1AE773EBA9CD39585 /* NSString+MaterialBidi.h */; };
+		CDA468AD8E2896D5A161E6B985614D08 /* NSString+MaterialBidi.m in Sources */ = {isa = PBXBuildFile; fileRef = 86CB7F9EA73A6A8C8FA5EA2F297CE91E /* NSString+MaterialBidi.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		ED6C2651DA50FB048C7D74F12ED60FB8 /* UIImage+MaterialRTL.h in Headers */ = {isa = PBXBuildFile; fileRef = B41BB884BEA516D7AD6D0F6971990DC4 /* UIImage+MaterialRTL.h */; };
+		EFDF83F0EB701C09C4629B9959EB1779 /* NSLocale+MaterialRTL.m in Sources */ = {isa = PBXBuildFile; fileRef = D70C15B813D9989059773FAE9B003BA0 /* NSLocale+MaterialRTL.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		51B2D704A98112EBB70529A32928CB48 /* Copy . Public Headers */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(PUBLIC_HEADERS_FOLDER_PATH)/.";
+			dstSubfolderSpec = 16;
+			files = (
+				88784B55C45FF8C5D5492F024CC2F9FA /* MDFInternationalization.h in Copy . Public Headers */,
+				82E06C78705B87CA114DF9F107851C8A /* MDFRTL.h in Copy . Public Headers */,
+				117E4D8C6376403CC8EB0AC4C074E7EF /* NSLocale+MaterialRTL.h in Copy . Public Headers */,
+				BF09C2BCDE49A99E15D7F2F133A23D66 /* NSString+MaterialBidi.h in Copy . Public Headers */,
+				476D4CF5DAA5BD856A2AAE4AC4118F4B /* UIImage+MaterialRTL.h in Copy . Public Headers */,
+				00AA4B28F2C57072DA897F59A056792E /* UIView+MaterialRTL.h in Copy . Public Headers */,
+			);
+			name = "Copy . Public Headers";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		196AFA43BB884ECA7D8FC25ADDD1D989 /* MDFInternationalization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MDFInternationalization.debug.xcconfig; sourceTree = "<group>"; };
+		24BE5E3CA2EE8B1BC84453246235A288 /* UIView+MaterialRTL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MaterialRTL.h"; path = "Sources/UIView+MaterialRTL.h"; sourceTree = "<group>"; };
+		2A4B305F0F692F07AAC7530014771305 /* MDFInternationalization-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDFInternationalization-umbrella.h"; sourceTree = "<group>"; };
+		60C94DAE6C62BAE1AE773EBA9CD39585 /* NSString+MaterialBidi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MaterialBidi.h"; path = "Sources/NSString+MaterialBidi.h"; sourceTree = "<group>"; };
+		6EDCE2168EAF2C811FC348C6B3A9A6CF /* MDFInternationalization-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDFInternationalization-prefix.pch"; sourceTree = "<group>"; };
+		6F31F3388C265DB7D9BF761D8E13E2ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		750C5712665E9DE039E66E4381370A25 /* UIView+MaterialRTL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MaterialRTL.m"; path = "Sources/UIView+MaterialRTL.m"; sourceTree = "<group>"; };
+		78A621AE812533A66C123BBD20C6F462 /* MDFInternationalization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDFInternationalization.h; path = Sources/MDFInternationalization.h; sourceTree = "<group>"; };
+		78DDE0FB428BCC5F25E566F0101EEFA4 /* MDFInternationalization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MDFInternationalization.release.xcconfig; sourceTree = "<group>"; };
+		86CB7F9EA73A6A8C8FA5EA2F297CE91E /* NSString+MaterialBidi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MaterialBidi.m"; path = "Sources/NSString+MaterialBidi.m"; sourceTree = "<group>"; };
+		A620F8135D10567E5BB8F5E8CE7124D3 /* UIImage+MaterialRTL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MaterialRTL.m"; path = "Sources/UIImage+MaterialRTL.m"; sourceTree = "<group>"; };
+		B2AD52A09D5EE158B4C4236F0BA12E4F /* MDFRTL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDFRTL.m; path = Sources/MDFRTL.m; sourceTree = "<group>"; };
+		B41BB884BEA516D7AD6D0F6971990DC4 /* UIImage+MaterialRTL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MaterialRTL.h"; path = "Sources/UIImage+MaterialRTL.h"; sourceTree = "<group>"; };
+		D70C15B813D9989059773FAE9B003BA0 /* NSLocale+MaterialRTL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLocale+MaterialRTL.m"; path = "Sources/NSLocale+MaterialRTL.m"; sourceTree = "<group>"; };
+		D8B13A37526E43F6A1645741A0FA1344 /* MDFInternationalization.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MDFInternationalization.modulemap; sourceTree = "<group>"; };
+		DA710D9B47F4AA09925F20EF9D3ABFAA /* NSLocale+MaterialRTL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLocale+MaterialRTL.h"; path = "Sources/NSLocale+MaterialRTL.h"; sourceTree = "<group>"; };
+		DDEA7B9C720EA5BBCF55DAF2480A63AF /* MDFInternationalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MDFInternationalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46AA3EE6E5F763DFCB52E23361A1CD2 /* MDFInternationalization-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MDFInternationalization-dummy.m"; sourceTree = "<group>"; };
+		E9F782D27FE1F2F0C10C4C1E6AF106EF /* MDFInternationalization-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MDFInternationalization-Info.plist"; sourceTree = "<group>"; };
+		F5C11872BDF153C58A6C99C83368B687 /* MDFRTL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDFRTL.h; path = Sources/MDFRTL.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FD1429BA6061D501807A0F09FD0EE05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63151DC49EB9BD1E4CBF8DC87D9D9126 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AAFF01999245F9038DA62874C27345E = {
+			isa = PBXGroup;
+			children = (
+				F3717AE183662F202A5AC48040671B6B /* Frameworks */,
+				682BEA329A2FAC8D813D06284711FB37 /* MDFInternationalization */,
+				ED2DD7471ECFEC5E182B6177D53E543E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28123E3081C0013D6DA4951095A83B07 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6F31F3388C265DB7D9BF761D8E13E2ED /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		682BEA329A2FAC8D813D06284711FB37 /* MDFInternationalization */ = {
+			isa = PBXGroup;
+			children = (
+				78A621AE812533A66C123BBD20C6F462 /* MDFInternationalization.h */,
+				F5C11872BDF153C58A6C99C83368B687 /* MDFRTL.h */,
+				B2AD52A09D5EE158B4C4236F0BA12E4F /* MDFRTL.m */,
+				DA710D9B47F4AA09925F20EF9D3ABFAA /* NSLocale+MaterialRTL.h */,
+				D70C15B813D9989059773FAE9B003BA0 /* NSLocale+MaterialRTL.m */,
+				60C94DAE6C62BAE1AE773EBA9CD39585 /* NSString+MaterialBidi.h */,
+				86CB7F9EA73A6A8C8FA5EA2F297CE91E /* NSString+MaterialBidi.m */,
+				B41BB884BEA516D7AD6D0F6971990DC4 /* UIImage+MaterialRTL.h */,
+				A620F8135D10567E5BB8F5E8CE7124D3 /* UIImage+MaterialRTL.m */,
+				24BE5E3CA2EE8B1BC84453246235A288 /* UIView+MaterialRTL.h */,
+				750C5712665E9DE039E66E4381370A25 /* UIView+MaterialRTL.m */,
+				A3F35359E2CF05A6B3ED0F99286055AB /* Support Files */,
+			);
+			path = MDFInternationalization;
+			sourceTree = "<group>";
+		};
+		A3F35359E2CF05A6B3ED0F99286055AB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8B13A37526E43F6A1645741A0FA1344 /* MDFInternationalization.modulemap */,
+				E46AA3EE6E5F763DFCB52E23361A1CD2 /* MDFInternationalization-dummy.m */,
+				E9F782D27FE1F2F0C10C4C1E6AF106EF /* MDFInternationalization-Info.plist */,
+				6EDCE2168EAF2C811FC348C6B3A9A6CF /* MDFInternationalization-prefix.pch */,
+				2A4B305F0F692F07AAC7530014771305 /* MDFInternationalization-umbrella.h */,
+				196AFA43BB884ECA7D8FC25ADDD1D989 /* MDFInternationalization.debug.xcconfig */,
+				78DDE0FB428BCC5F25E566F0101EEFA4 /* MDFInternationalization.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MDFInternationalization";
+			sourceTree = "<group>";
+		};
+		ED2DD7471ECFEC5E182B6177D53E543E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDEA7B9C720EA5BBCF55DAF2480A63AF /* MDFInternationalization.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3717AE183662F202A5AC48040671B6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28123E3081C0013D6DA4951095A83B07 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EC3D6D554F0AA5A210F19BF37467CC4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F381B98DC4FD53609ED82883C8810A /* MDFInternationalization-umbrella.h in Headers */,
+				38D0E4A2F3E1D2EB065772F99724EA51 /* MDFInternationalization.h in Headers */,
+				33D0271F2632495BCA7EBA17C3CC7D58 /* MDFRTL.h in Headers */,
+				4769A2EE3CCEA152BC2EC9D7E491FBE7 /* NSLocale+MaterialRTL.h in Headers */,
+				A840EE869C0D96996383CBD283C95B89 /* NSString+MaterialBidi.h in Headers */,
+				ED6C2651DA50FB048C7D74F12ED60FB8 /* UIImage+MaterialRTL.h in Headers */,
+				BD9F5CF5034698C48182F9FCB1019FF5 /* UIView+MaterialRTL.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09F6AE8A62CAA101CF422065B0EAA720 /* MDFInternationalization */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C53E56BCA4AA23A741AD11BC0F45670 /* Build configuration list for PBXNativeTarget "MDFInternationalization" */;
+			buildPhases = (
+				EC3D6D554F0AA5A210F19BF37467CC4F /* Headers */,
+				51B2D704A98112EBB70529A32928CB48 /* Copy . Public Headers */,
+				A87B6239625890BFA1641EA202B8B753 /* Sources */,
+				0FD1429BA6061D501807A0F09FD0EE05 /* Frameworks */,
+				7D5DB00C1693A9144EA6B85E7E21AAA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDFInternationalization;
+			productName = MDFInternationalization;
+			productReference = DDEA7B9C720EA5BBCF55DAF2480A63AF /* MDFInternationalization.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA298DDAD820B66FE772ADD165754D93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 230A298D276F9A09BA5ED62EEF12E52C /* Build configuration list for PBXProject "MDFInternationalization" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AAFF01999245F9038DA62874C27345E;
+			productRefGroup = ED2DD7471ECFEC5E182B6177D53E543E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09F6AE8A62CAA101CF422065B0EAA720 /* MDFInternationalization */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D5DB00C1693A9144EA6B85E7E21AAA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A87B6239625890BFA1641EA202B8B753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0743EEDAA8FAD13999659CB8BE85188D /* MDFInternationalization-dummy.m in Sources */,
+				256C083E273BC2E2063D33456B59A42F /* MDFRTL.m in Sources */,
+				EFDF83F0EB701C09C4629B9959EB1779 /* NSLocale+MaterialRTL.m in Sources */,
+				CDA468AD8E2896D5A161E6B985614D08 /* NSString+MaterialBidi.m in Sources */,
+				909D75B45E6686622E4495EB3F577CD9 /* UIImage+MaterialRTL.m in Sources */,
+				39FF4D00D32295D2310F54F45E0E12B8 /* UIView+MaterialRTL.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		02CA9E4EF959CF96DDD63845B7E17651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		05936E8DF411B32AEA87EDC8210BE0ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 196AFA43BB884ECA7D8FC25ADDD1D989 /* MDFInternationalization.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MDFInternationalization/MDFInternationalization-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MDFInternationalization/MDFInternationalization-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MDFInternationalization/MDFInternationalization.modulemap";
+				PRODUCT_MODULE_NAME = MDFInternationalization;
+				PRODUCT_NAME = MDFInternationalization;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		06A83F590C19ADE60FEB17C90B2987EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78DDE0FB428BCC5F25E566F0101EEFA4 /* MDFInternationalization.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MDFInternationalization/MDFInternationalization-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MDFInternationalization/MDFInternationalization-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MDFInternationalization/MDFInternationalization.modulemap";
+				PRODUCT_MODULE_NAME = MDFInternationalization;
+				PRODUCT_NAME = MDFInternationalization;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9497CDA08028EF7B499784C8D5E6A7C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		230A298D276F9A09BA5ED62EEF12E52C /* Build configuration list for PBXProject "MDFInternationalization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9497CDA08028EF7B499784C8D5E6A7C0 /* Debug */,
+				02CA9E4EF959CF96DDD63845B7E17651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C53E56BCA4AA23A741AD11BC0F45670 /* Build configuration list for PBXNativeTarget "MDFInternationalization" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05936E8DF411B32AEA87EDC8210BE0ED /* Debug */,
+				06A83F590C19ADE60FEB17C90B2987EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA298DDAD820B66FE772ADD165754D93 /* Project object */;
+}
