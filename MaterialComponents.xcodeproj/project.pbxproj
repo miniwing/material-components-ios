@@ -4847,7 +4847,6 @@
 				24BA437873DD4A28D88C6FD79A835000 /* Frameworks */,
 				29F1A66AEF2E54D6B4B70AD7ABCE02C9 /* Resources */,
 				4A712448260333D200F75A37 /* Embed Frameworks */,
-				4A712478260338BD00F75A37 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -5076,26 +5075,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		4A712478260338BD00F75A37 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage build --platform \"$PLATFORM_NAME\" --project-directory \"$SRCROOT\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04C283B38B287A3A8140DCC03EA1B45B /* Sources */ = {
