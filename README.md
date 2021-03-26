@@ -13,10 +13,15 @@ Carthage users can point to this repository and use whichever generated framewor
 
 **Make the following entry in your Cartfile: `github github "miniwing/material-components-ios" "124.1.1"`
 Then run `carthage update`**
+> ```bash
+> carthage update
+> ```
+
+
 If this is your first time using Carthage in the project, you'll need to go through some additional steps as explained [over at Carthage](https://github.com/Carthage/Carthage#adding-frameworks-to-an-application).
 
 
-> <img align="right" src="mdc_hero.png" width="300px">
+> <img align="right" src="https://raw.githubusercontent.com/material-components/material-components-ios/v124.1.1/mdc_hero.png" width="300px">
 
 > [![Code coverage](https://img.shields.io/codecov/c/github/material-components/material-components-ios/develop.svg)](https://codecov.io/gh/material-components/material-components-ios/branch/develop)
 
