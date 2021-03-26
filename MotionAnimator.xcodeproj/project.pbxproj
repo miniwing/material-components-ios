@@ -250,6 +250,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Harry;
 			};
 			buildConfigurationList = 5B7AAE39F71442A88E91A969FBC9553E /* Build configuration list for PBXProject "MotionAnimator" */;
 			compatibilityVersion = "Xcode 10.0";
