@@ -17,6 +17,8 @@ Then run `carthage update`**
 > carthage update
 > ```
 
+~~####################################################################################~~
+
 
 If this is your first time using Carthage in the project, you'll need to go through some additional steps as explained [over at Carthage](https://github.com/Carthage/Carthage#adding-frameworks-to-an-application).
 
